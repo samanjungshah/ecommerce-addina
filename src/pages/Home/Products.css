@@ -1,0 +1,26 @@
+.product-image{
+    transition: transform 0.3s ease;
+}
+.product-image:hover{
+    transform: scale(1.1);
+}
+.hover-icons{
+    display: none;
+}
+
+
+.product-img:hover .hover-icons{
+    display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+    /* Media query for devices with a maximum width of 768px (typical mobile devices) */
+    .product-img:hover .hover-icons {
+      display: none; /* Show icons container on focus (tap/click) */
+    }
+    .product-image:hover{
+        transform: scale(1);
+    }
+    
+  }
+  

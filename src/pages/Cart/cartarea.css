@@ -1,0 +1,14 @@
+td,th{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    font-size: 22px;
+}
+table{
+    width: 100%;
+
+
+}
+.quantity{
+    text-align: right;
+}
